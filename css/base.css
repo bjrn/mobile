@@ -1,0 +1,23 @@
+html,body,form {
+	margin:0; padding:0;
+}
+body,input,select {
+	font-family:Helvetica, sans-serif;
+	color:#222;
+}
+
+body {
+	/*striped bg idea from snippetspace.com/iwebkit */
+	background:#c5ccd4;
+	-webkit-background-size:0.438em 100%;
+	background-size:0.438em 100%; 
+	background-image: -moz-linear-gradient(0deg, #c5ccd4 , #c5ccd4 71%, #cbd2d8 72%, #cbd2d8 );
+	background-image: -webkit-gradient(linear,left top,right top, from(#c5ccd4), color-stop(71%, #c5ccd4), color-stop(72%, #cbd2d8), to(#cbd2d8));	
+}
+
+a {color:#222; text-decoration:none;}
+
+
+article {
+	padding: 0 20px;
+}

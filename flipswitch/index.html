@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<title>Flipswitch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="grey" />
+	<meta name="format-detection" content="telephone=no" />
+
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/lists.css">
+	<link rel="stylesheet" href="../css/flipswitch.css">
+</head>
+<body>
+	<ul class="list group">
+		<li>
+			<span class="name">
+				Flipswitch
+			</span>
+			<span class="input">
+
+				<span class="flip">
+					<input type="checkbox" checked="checked" name="flip1" value="1">
+					<label>
+						<span class="on">On</span>
+						<span class="thumb"></span>
+						<span class="off">Off</span>
+					</label>
+				</span>
+
+
+			</span>
+		</li>
+	</ul>
+	
+	<article>
+		<p>Since the flipswitches are basically styled checkboxes with some css animations applied, 
+			they are fully usable without javascript. However they feel a bit more responsive if we trigger the click event already on <code>touchstart</code>
+		</p>
+	</article>
+	
+	<ul class="list group">
+		<li>
+			<span class="name">
+				Not limited to on/off
+			</span>
+			<span class="input">
+
+				<span class="flip">
+					<input type="checkbox" name="flip2" value="1">
+					<label>
+						<span class="on">I</span>
+						<span class="thumb"></span>
+						<span class="off">O</span>
+					</label>
+				</span>
+
+
+			</span>
+		</li>
+		<li>
+			<span class="name">
+				...
+			</span>
+			<span class="input">
+
+				<span class="flip">
+					<input type="checkbox" checked="checked" name="flip3" value="1">
+					<label>
+						<span class="on">Yes</span>
+						<span class="thumb"></span>
+						<span class="off">No</span>
+					</label>
+				</span>
+
+
+			</span>
+		</li>
+	</ul>
+	
+	<ul class="list group">
+		<li>
+			<span class="name">
+				Really long label on this option which hopefully will be properly truncated 
+			</span>
+			<span class="input">
+				<span class="flip">
+					<input type="checkbox" name="flip4" value="1">
+					<label>
+						<span class="on">I</span>
+						<span class="thumb"></span>
+						<span class="off">O</span>
+					</label>
+				</span>
+				<span class="flip">
+					<input type="checkbox" name="flip5" value="1">
+					<label>
+						<span class="on">On</span>
+						<span class="thumb"></span>
+						<span class="off">Off</span>
+					</label>
+				</span>
+			</span>
+		</li>
+	</ul>
+	
+	
+	<ul class="list">
+		<li class="divider">Horisontal alignment</li>
+		
+		<li>
+			<div class="name">
+				Item name
+			</div>
+			<div class="comment">
+				some text 
+			</div>
+		</li>
+		<li>
+			<div class="name">
+				Another item
+			</div>
+			<div class="input">
+				<span class="flip">
+					<input type="checkbox" name="flip6" value="1">
+					<label>
+						<span class="on">On</span>
+						<span class="thumb"></span>
+						<span class="off">Off</span>
+					</label>
+				</span>
+			</div>
+		</li>
+		<li class="arrow">
+			<div class="name">
+				Link
+			</div>
+			<div class="comment">
+				optional text/value
+			</div>
+		</li>
+	</ul>
+
+	<ul class="list link-list group">
+		<li class="divider">Link list</li>
+		<li>
+			<a href="#">
+				<span class="name">
+					Item name
+				</span>
+				<span class="badge">0</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span class="name">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span class="name">
+					Another Link
+				</span>
+			</a>
+		</li>
+	</ul>
+
+	<ul class="list">
+		<li class="divider">
+			Too many flipswitches on this line
+		</li>
+		<li>
+			<span class="name">
+				Really long label on this option which hopefully will be properly truncated 
+			</span>
+			<span class="input">
+				<span class="flip">
+					<input type="checkbox" name="buy" value="1">
+					<label>
+						<span class="on">I</span>
+						<span class="thumb"></span>
+						<span class="off">O</span>
+					</label>
+				</span>
+				<span class="flip">
+					<input type="checkbox" name="buy" value="1">
+					<label>
+						<span class="on">On</span>
+						<span class="thumb"></span>
+						<span class="off">Off</span>
+					</label>
+				</span>
+				<span class="flip">
+					<input type="checkbox" name="buy" value="1">
+					<label>
+						<span class="on">On</span>
+						<span class="thumb"></span>
+						<span class="off">Off</span>
+					</label>
+				</span>
+			</span>
+		</li>
+	</ul>
+</body>
+</html>
