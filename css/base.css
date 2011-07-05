@@ -18,6 +18,8 @@ body {
 a {color:#222; text-decoration:none;}
 
 
-article {
+article, footer {
 	padding: 0 20px;
 }
+
+footer, footer a {color:#778;}
